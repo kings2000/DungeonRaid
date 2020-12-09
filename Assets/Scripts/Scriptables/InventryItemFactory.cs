@@ -19,7 +19,6 @@ public class InventoyItem
 {
     public int count;
     public int maxPackSize; //The amount of this item that can be in one pack
-    public Sprite image;
     public GameModels.ItemProps ItemProps;
-    public ItemCategory itemCategory;
+    
 }

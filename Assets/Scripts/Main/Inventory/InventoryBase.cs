@@ -1,29 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public interface IInventory
 {
     int Count { get; }
-    void Put(int id);
-    void Get(int id); //by type
-
+    void Put(InventoyItem item);
+    Dictionary<string, InventoyItem> GetItems(); //by type
+    
 }
 
 
 
-public class InventoryBase : IInventory
+public class InventoryBase : MonoBehaviour, IInventory
 {
-    private Dictionary<int, IInventory> inventoryItems = new Dictionary<int, IInventory>();
+    private Dictionary<string, InventoyItem> inventoryItems = new Dictionary<string, InventoyItem>();
+    public int maxCellCount;
     public int Count => throw new System.NotImplementedException();
 
-    public void Put(int id)
+    public virtual void Put(InventoyItem item)
     {
         
     }
 
-    public void Get(int id)
+    public virtual Dictionary<string, InventoyItem> GetItems()
     {
-        
+        return inventoryItems;
     }
 }

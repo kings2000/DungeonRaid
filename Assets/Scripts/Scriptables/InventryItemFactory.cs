@@ -17,8 +17,9 @@ public class InventryItemFactory : ScriptableObject
 [System.Serializable]
 public class InventoyItem
 {
-    public int count;
-    public int maxPackSize; //The amount of this item that can be in one pack
+    [HideInInspector]public int currentCount;
+    //public int maxPackSize; //The amount of this item that can be in one pack
     public GameModels.ItemProps ItemProps;
     
+
 }

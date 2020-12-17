@@ -1,17 +1,14 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Bag : InventoryBase
+public class MissionPoint : MonoBehaviour, IInteractable
 {
-
     
     void Start()
     {
 
     }
-
-    
-    void Update()
+    public void Interact()
     {
 
     }

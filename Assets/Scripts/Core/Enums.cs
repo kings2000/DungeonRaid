@@ -68,4 +68,22 @@ namespace Enums
         ContructionItem,
         foodItem,
     }
+
+    public enum ScenesID
+    {
+
+        UIScene = 2,
+        Dunguon_1 = 5,
+        Dunguon_2 = 6,
+        Dunguon_3 = 7,
+        Dunguon_4 = 8,
+    }
+
+    public enum LocationId
+    {
+        Runes_1 = ScenesID.Dunguon_1,
+        Runes_2 = ScenesID.Dunguon_2,
+        Runes_3 = ScenesID.Dunguon_3,
+        Runes_4 = ScenesID.Dunguon_4
+    }
 }

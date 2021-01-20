@@ -18,7 +18,6 @@ public class MainSceneController : MonoBehaviour
             SceneManager.LoadSceneAsync(3, LoadSceneMode.Additive);
         if (!SceneManager.GetSceneByBuildIndex(4).isLoaded)
             SceneManager.LoadSceneAsync(4, LoadSceneMode.Additive);
-        if (!SceneManager.GetSceneByBuildIndex(5).isLoaded)
-            SceneManager.LoadSceneAsync(5, LoadSceneMode.Additive);
+        
     }
 }

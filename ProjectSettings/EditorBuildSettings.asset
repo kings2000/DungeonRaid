@@ -15,12 +15,21 @@ EditorBuildSettings:
     path: Assets/Scenes/UIScene.unity
     guid: bab39f929a6f2a74991d87c567168cd8
   - enabled: 1
-    path: Assets/Scenes/Dunguons.unity
-    guid: 641ed268494812e46a2e060729b54f1f
-  - enabled: 1
     path: Assets/Scenes/Vallage.unity
     guid: 1ce5bffbf75e2294a9a36aeae7d65d14
   - enabled: 1
     path: Assets/Scenes/MapBoundaries.unity
     guid: bfbec48486700fc45a833fb612549a56
+  - enabled: 1
+    path: Assets/Scenes/Dunguons/Dunguon1.unity
+    guid: b2cd31e67d85d12479e8d69ce27e6fe9
+  - enabled: 1
+    path: Assets/Scenes/Dunguons/Dunguon2.unity
+    guid: 06be77dc645cce44197a6f37e6b294d8
+  - enabled: 1
+    path: Assets/Scenes/Dunguons/Dunguon3.unity
+    guid: 4dae12d126e85bc429ecd53b49504cd3
+  - enabled: 1
+    path: Assets/Scenes/Dunguons/Dunguon4.unity
+    guid: 565fcad53c2a5304aafc7ea081b854e0
   m_configObjects: {}
